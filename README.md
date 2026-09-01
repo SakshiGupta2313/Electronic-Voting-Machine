@@ -1,27 +1,30 @@
-# Electronic Voting Machine
+# Electronic Voting Machine (EVM)
 
-## About the Project
+## Project Overview
 This is an Electronic Voting Machine mini project developed as part of my Electronics and Communication Engineering studies.
+
+## Features
+- Voting through push buttons
+- 16x2 LCD display
+- LED indication after vote registration
+- Buzzer feedback
+- Vote counting
+- Result display
+- SD card storage for voting data
 
 ## Components Used
 - Arduino
-- LCD (I2C)
+- 16x2 LCD with I2C
 - Push Buttons
 - LED
 - Buzzer
 - SD Card Module
 
-## Hardware Connections
-- Vote Buttons: D2–D7
-- Result Button: D9
-- Buzzer: D8
-- LED: D11
-- SD Card CS: D10
-- LCD SDA: A4
-- LCD SCL: A5
-
 ## Working
-The Electronic Voting Machine allows users to cast their vote using push buttons. The system registers the vote and displays the voting results on the LCD.
+The voter selects a candidate using the corresponding push button. The Arduino registers the vote and provides LED and buzzer feedback. The LCD displays the recorded vote. The result button displays the vote count for each candidate.
 
-## Project Type
-ECE Mini Project
+## Project Structure
+- Arduino_Code – Arduino program
+- Circuit_Diagram – Circuit and hardware connections
+- Documentation – Project documentation
+- Images – Project images
