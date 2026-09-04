@@ -28,3 +28,4 @@ The voter selects a candidate using the corresponding push button. The Arduino r
 - Circuit_Diagram – Circuit and hardware connections
 - Documentation – Project documentation
 - Images – Project images
+  
